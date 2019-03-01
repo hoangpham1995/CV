@@ -1,0 +1,33 @@
+.nut{
+    text-align: center;
+    padding: 40px 0px;
+    .nut_user{
+        a:focus {
+            outline: none;
+            
+        }
+        .but{
+            text-transform: uppercase;
+            color: $color-white;
+            background-color:$bg-black;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .mut{
+            
+            @extend.but;
+            background-color: $bg-red;
+        }
+        .icon{
+            padding: 8px 25px 8px 45px;
+        }
+       
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 760px) {
+    .but{
+        margin-bottom: 15px;
+    }
+
+}

@@ -1,0 +1,53 @@
+.right{
+    background: $bg-white;
+    .text{
+        border-bottom: 1px solid #efefef;
+        padding: 30px 10px 2px 40px;
+          p{
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+    
+    }
+    }
+    .text_header{
+        padding: 40px;
+        .text_header_user{
+            .text_user{
+                text-transform: uppercase;
+                h2{
+                    font-weight: bold;
+                    font-size: 1.8rem;
+                }
+                p{
+                    font-size: 22px;
+                    color: $color-gray;
+                    font-weight: 300;
+                }
+                } 
+                .item_text{
+                    p{
+                        font-size: 14px;   
+                        color:  $color-gray;
+                    }
+                }
+
+        }
+        .text_header_info{
+            .name_info{
+                text-align: center;
+                font-size: 14px;
+                table, td, th {
+                    border: 1px solid #dee2e6;
+                }
+                td{
+                    background-color:  #fafafa;
+                    color: $color-gray-6;
+                }
+            }
+        }
+    
+    }
+ 
+  
+}

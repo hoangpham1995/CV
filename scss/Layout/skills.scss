@@ -1,0 +1,313 @@
+.text_skill{
+    .text{
+        border-bottom: 1px solid $bg-gray;
+     
+    }
+    .item_reset{
+        padding: 40px;
+        .design_user_item{
+            .none{
+                display: flex;
+                align-items: center;
+                top: -12px;
+                .design{
+                    border: 1px dashed $bg-gray;
+                }
+                .skill_design{
+                    padding: 5px 25px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    color: $color-gray-9;
+                    left: -15px;
+                    transform: rotate(-90deg);
+                    -webkit-transform: rotate(-90deg);
+                    -moz-transform: rotate(-90deg);
+                    -ms-transform: rotate(-90deg);
+                    -o-transform: rotate(-90deg);
+}
+                }
+           p{
+            text-transform: uppercase;
+            margin-bottom: 0;
+            font-size: 13px;
+            color: $color-gray-6;
+           } 
+          .photo{
+            position: relative;
+            width: 100%;
+            border: 1px solid $bg-gray;
+            height: 22px;
+            border-radius: 10px;
+            margin: 8px 0 14px;
+
+
+            .skill_photo{
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                position: absolute;
+                left: -1px;
+                }
+                .skill_photoshop{
+                width: 50%;
+                animation: photoshop 3s;
+                -webkit-animation: photoshop 3s;
+                } 
+                .skill_html{
+                    width: 80%;
+                    animation: html 3s;
+                    -webkit-animation: html 3s;
+                }
+                .skill_bootrap{
+                    width: 80%;
+                    animation: bootrap 3s;
+                    -webkit-animation: bootrap 3s;
+                }
+                
+                .percent{
+                    position: absolute;
+                    right: 10px;
+                    line-height: 1.5;
+                    font-size: 13px;
+                    color: rgba(0, 0, 0, 0.4);
+                }
+
+           
+                .bg_skill{
+                    background-color: $bg-gray;
+                    height: 22px;
+                }
+        
+          }
+
+        }
+        .coding_user_item{
+            .none{
+                display: flex;
+                align-items: center;
+                top: -12px;
+                .coding{
+                    border: 1px dashed $bg-red;
+                }
+                .skill_design{
+
+                    padding: 5px 25px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    color: $color-gray-9;
+                    left: -15px;
+                    transform: rotate(-90deg);
+                    -webkit-transform: rotate(-90deg);
+                    -moz-transform: rotate(-90deg);
+                    -ms-transform: rotate(-90deg);
+                    -o-transform: rotate(-90deg);
+}
+                }
+           p{
+            text-transform: uppercase;
+            margin-bottom: 0;
+            font-size: 13px;
+            color: $color-gray-6;
+           } 
+          .photo{
+            position: relative;
+            width: 100%;
+            border: 1px solid #CD5353;
+            height: 23px;
+            border-radius: 10px;
+            margin: 8px 0 14px;
+            .skill_photo{
+
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                position: absolute;
+                left: -1px;
+              
+                }
+                .percent{
+                    position: absolute;
+                    right: 10px;
+                    line-height: 1.5;
+                    font-size: 13px;
+                    color: rgba(0, 0, 0, 0.4);
+                }
+              .skill_javastrip{
+                width: 60%;
+                animation: javastrip 3s;
+                -webkit-animation: javastrip 3s;
+                }
+              .skill_angular{
+                width: 60%;
+                animation: angular 3s;
+                -webkit-animation: angular 3s;
+                }
+               .skill_react{
+                width: 30%;
+                animation: react 3s;
+                -webkit-animation: react 3s;
+                } 
+
+
+            .bg_skill_1{
+                background-color: $bg-red;
+                height: 22px;
+            }
+        
+          }
+        }
+        .assets_user_item{
+            .none{
+                display: flex;
+                align-items: center;
+                top: -12px;
+                .asset{
+                    border: 1px dashed $color-gray-6;
+                }
+                .skill_design{
+                    padding: 5px 25px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    color: $color-gray-9;
+                    left: -15px;
+                    transform: rotate(-90deg);
+                    -webkit-transform: rotate(-90deg);
+                    -moz-transform: rotate(-90deg);
+                    -ms-transform: rotate(-90deg);
+                    -o-transform: rotate(-90deg);
+}
+                }
+           p{
+            text-transform: uppercase;
+            margin-bottom: 0;
+            font-size: 13px;
+            color: $color-gray-6;
+           } 
+          .photo{
+            position: relative;
+            width: 100%;
+            border: 1px solid $bg-black;
+            height: 25px;
+            border-radius: 10px;
+            margin: 8px 0 14px;
+            .skill_photo{
+              
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                position: absolute;
+                left: -1px;
+                top: -1px;
+               
+                }
+                .percent{
+                    position: absolute;
+                    right: 10px;
+                    line-height: 1.5;
+                    font-size: 13px;
+                    color: rgba(0, 0, 0, 0.4);
+                }
+                .skill_assets{
+                    width: 50%;
+                    animation: github 3s;
+                    -webkit-animation: github 3s;
+                }
+
+          
+            .bg_skill_2{
+                background-color: $bg-black;
+                height: 25px;
+            }
+        
+          }
+
+        }
+
+    }
+}
+
+// source code aminate
+
+@keyframes photoshop{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes bootrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes javastrip{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes angular{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes github{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 760px) {
+
+.design_md{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        .skill_design{
+            transform: rotate(0deg)!important;
+            -webkit-transform: rotate(0deg)!important;
+            -moz-transform: rotate(0deg)!important;
+            -ms-transform: rotate(0deg)!important;
+            -o-transform: rotate(0deg)!important;
+            position: inherit!important;
+    
+    }
+}
+   
+
+}

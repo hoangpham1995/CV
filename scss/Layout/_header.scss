@@ -1,0 +1,171 @@
+header{
+
+        .wapper_inttall{
+                margin-top: 80px;
+                .norn{
+                    padding-right: 0px;
+                    .user_contact{
+                            background:$bg-white;
+                            .user{
+                            ul{
+                                margin: 0px;
+                                li{
+                                list-style: none;
+                                position: relative;
+                                border-bottom: 1px solid black;
+                                    a{
+                                        text-transform: uppercase;
+                                        font-weight: 500;
+                                        text-decoration: none;
+                                        display: table;
+                                        padding: 15px 25px;
+                                        font-size: 14px;
+                                        background: $bg-black;
+                                        color: $color-gray-menu;
+                                        width: 100%;
+                                        text-align: right;
+                                        transition: 0.4s;
+                                        -webkit-transition: 0.4s;
+                                        -moz-transition: 0.4s;
+                                        -ms-transition: 0.4s;
+                                        -o-transition: 0.4s;
+                                        i
+                                        {
+                                            position: absolute;
+                                            left: 25px;
+                                            font-size: 20px;
+
+                                        }
+                                        &:hover{
+                                            background:#cd5353;
+                                            color: white;
+                                        }
+                                     
+                                    }
+                                    a.active{
+                                        background: #cd5353;
+                                        color:$color-white ;
+                                    }
+    
+                                }
+
+                            }
+                        }
+                        .contact{
+                            text-align: center;
+                            padding: 20px 0px;
+                          
+                            ul{
+                                list-style: none;
+                                display:inline-flex ;
+                                align-items: center;
+                                li{
+                                    a{
+                                    text-decoration: none;
+
+                                        i{
+                                            width: 35px;
+                                            height: 35px;
+                                            border-radius: 30px;
+                                            font-size: 16px;
+                                            color: white;
+                                            margin-right: 8px;
+                                            align-items: center;
+                                           
+                                            display: flex;
+                                            justify-content: center;
+                                            &:hover{
+                                             box-shadow:0px 0px 10px 5px #888890;
+                                            }
+                                          
+                                        } 
+                                        .face{
+                                            background: #4267B2;
+                                           
+                                        }
+                                        .intas{
+                                            background: #ff4343;
+                                        }
+                                        .google{
+                                            background: #4285F4;
+                                        }   
+                                     
+                                    }
+                                }
+                            }
+                            p{
+                                font-size: 13px;
+                                color: $color-gray-menu;
+                            }
+                        }
+                        }
+                }
+        }
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 760px){
+
+    header {
+        .wapper_inttall{
+            .norn{
+                padding-right: 15px;
+                .user_contact {
+                    .user{
+                        ul{
+                            display: flex;
+                            li{
+                                width: 100%;
+                                border-right:2px solid black;
+                                border-bottom: 0px;
+                                a{
+                                    font-size: 0px;
+                                    padding:25px;
+                                    i{
+                                        left: 40%;
+                                        font-size: 20px;
+                                        line-height: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    header {
+        .wapper_inttall{
+            .norn{
+                padding-right: 15px;
+                .user_contact {
+                    .user{
+                        ul{
+                            display: flex;
+                            li{
+                                width: 100%;
+                                border-right:2px solid black;
+                                border-bottom: 0px;
+                                a{
+                                    font-size: 16px;
+                                   
+                                    i{
+                                     
+                                        font-size: 20px;
+                                        line-height: 1.3;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }  
+
+}
+
+
